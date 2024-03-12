@@ -1,0 +1,58 @@
+DELETE http://localhost:8080/emp/37
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-06-28T115613.200.txt
+
+###
+
+GET http://localhost:8080/emp/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-06-28T114632.200.txt
+
+###
+
+GET http://localhost:8080/emp/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-06-28T110551.200.txt
+
+###
+
+GET http://localhost:8080/emp/add?empName=张张&deptId=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-06-28T110548.200.txt
+
+###
+
+GET http://localhost:8080/emp/add?empName=张张&deptId=2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/emp/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-06-28T110040.200.txt
+
+###
+
+GET http://localhost:8080/emp/all
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/emp/all
+Accept: */*
+Cache-Control: no-cache
+
+###
+
